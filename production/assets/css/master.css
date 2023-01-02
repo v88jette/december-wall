@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: 200;
+    width: fit-content;
+}
+.error{
+    color: red;
+}
+.hidden{
+    display: none;
+}
+    input, textarea {
+        display: block;
+        margin: 8px 0;
+    }
+        strong {
+            font-weight: 400;
+        }
+    button{
+        margin-bottom: 8px;
+    }
+.reply_form, .delete_reply_form, .reply{
+    margin-left:  25px;
+}
+    .reply_form input[type=submit]{
+        background-color: green;
+        color: white;
+    }
+    .delete_form input[type=submit]{
+        background-color: red;
+        color:white;
+    }
+    .post span, .reply span{
+        font-weight: bold;
+        font-style: italic;
+    }
